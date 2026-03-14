@@ -1,0 +1,11 @@
+{
+  "cache_cleaner": {"module": "cache_cleaner", "function": "run", "description": "Delete all caches (npm, uv, pip, NuGet)"},
+  "storage_report": {"module": "storage_culprits_report", "function": "run", "description": "Storage Culprits Report - Show what's eating disk space"},
+  "c_drive_deep": {"module": "c_drive_deep_analyzer", "function": "run", "description": "Deep C Drive Analyzer - AppData, Programs, Windows, System files - Commands: full, appdata, programs, windows, system, disk"},
+  "program_scanner": {"module": "detailed_program_scanner", "function": "run", "description": "Detailed Program & AppData Scanner - Lists ALL with sizes - Commands: programs, appdata, both, top50"},
+  "c_drive": {"module": "c_drive_manager", "function": "run", "description": "C: Drive Manager - Commands: list, search, large, delete, analyze"},
+  "c_drive_cleanup": {"module": "c_drive_cleaner", "function": "run", "description": "C: Drive Cleanup - Delete safe temporary files - Commands: safe, temp, cache, all"},
+  "c_drive_full_scan": {"module": "c_drive_full_analyzer", "function": "run", "description": "C: Drive Full Scanner - Find duplicates, large files - Commands: duplicates, large, extensions, plan"},
+  "files_delete": {"module": "file_manager", "function": "delete_file", "description": "Delete a file or folder"},
+  "os_health": {"module": "os_health", "function": "run", "description": "OS Health Monitor - Commands: report, cpu, memory, disk, processes, network, uptime, battery, temp, services, alerts"}
+}

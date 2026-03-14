@@ -1,0 +1,36 @@
+[project]
+name = "mcp-validation-agent"
+version = "0.1.0"
+description = "Autonomous AI Code Validation and Correction Agent for MCP"
+authors = [{ name = "MCP Dev", email = "dev@mcp.io" }]
+dependencies = [
+    "mcp",
+    "pydantic",
+]
+requires-python = ">=3.11"
+
+[project.optional-dependencies]
+dev = [
+    "pylint",
+    "mypy",
+    "ruff",
+    "astroid",
+    "pytest",
+]
+
+[project.scripts]
+validation-agent = "validation_agent:main"
+
+[tool.pyright]
+typeCheckingMode = "strict"
+reportMissingTypeStubs = false
+reportUnknownParameterType = "warning"
+reportUnknownMemberType = "warning"
+
+[tool.mypy]
+strict = true
+ignore_missing_imports = true
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"

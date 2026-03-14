@@ -1,0 +1,51 @@
+ID,Date,Product,Category,Quantity,Unit Price,Total,Sales Rep,Region
+1,2024-01-12,Desk Lamp,Office Supplies,20,165.53,3310.6,Emma Davis,Central
+2,2024-04-28,Laptop,Peripherals,15,271.96,4079.4,David Lee,East
+3,2024-04-09,Desk Lamp,Electronics,4,238.88,955.52,Michael Brown,East
+4,2024-10-29,Keyboard,Electronics,14,471.74,6604.36,Sarah Wilson,East
+5,2024-06-22,Keyboard,Office Supplies,7,426.76,2987.32,Sarah Wilson,North
+6,2024-07-13,Desk Lamp,Peripherals,20,14.42,288.4,Michael Brown,Central
+7,2024-03-10,Headphones,Peripherals,8,97.34,778.72,Sarah Wilson,South
+8,2024-08-25,Keyboard,Electronics,1,74.11,74.11,David Lee,South
+9,2024-09-28,USB Cable,Peripherals,3,209.9,629.7,Sarah Wilson,West
+10,2024-03-13,Keyboard,Peripherals,14,28.71,401.94,Emma Davis,Central
+11,2024-02-27,Mouse,Office Supplies,19,365.26,6939.94,Michael Brown,North
+12,2024-02-07,USB Cable,Office Supplies,20,356.91,7138.2,John Smith,West
+13,2024-06-27,Desk Lamp,Office Supplies,10,94.51,945.1,David Lee,Central
+14,2024-11-19,Mouse,Office Supplies,3,460.3,1380.9,Emma Davis,East
+15,2024-02-16,Mouse,Electronics,17,297.94,5064.98,John Smith,West
+16,2024-02-05,Webcam,Office Supplies,8,296.33,2370.64,John Smith,Central
+17,2024-05-17,Monitor,Electronics,12,263.02,3156.24,Sarah Wilson,Central
+18,2024-09-13,Monitor,Peripherals,20,136.66,2733.2,Michael Brown,North
+19,2024-04-22,USB Cable,Office Supplies,5,468.71,2343.55,John Smith,Central
+20,2024-02-24,Webcam,Accessories,7,137.19,960.33,Emma Davis,South
+21,2024-09-22,Monitor,Electronics,18,434.16,7814.88,David Lee,North
+22,2024-03-11,Desk Lamp,Electronics,10,194.65,1946.5,Sarah Wilson,East
+23,2024-09-26,Mouse,Peripherals,16,445.54,7128.64,David Lee,East
+24,2024-10-01,Desk Lamp,Accessories,3,224.28,672.84,Michael Brown,Central
+25,2024-04-07,Headphones,Office Supplies,15,208.54,3128.1,Sarah Wilson,Central
+26,2024-02-16,Laptop,Peripherals,19,284.63,5407.97,John Smith,East
+27,2024-04-02,USB Cable,Electronics,3,459.18,1377.54,David Lee,North
+28,2024-01-07,Keyboard,Office Supplies,5,169.42,847.1,David Lee,Central
+29,2024-09-24,USB Cable,Office Supplies,12,146.93,1763.16,Emma Davis,Central
+30,2024-09-09,Monitor,Peripherals,3,461.3,1383.9,Sarah Wilson,West
+31,2024-09-24,Keyboard,Electronics,8,422.49,3379.92,John Smith,South
+32,2024-05-17,Monitor,Office Supplies,6,184.36,1106.16,Sarah Wilson,East
+33,2024-01-08,USB Cable,Office Supplies,11,30.22,332.42,Michael Brown,Central
+34,2024-05-03,Monitor,Electronics,10,490.82,4908.2,John Smith,West
+35,2024-01-22,Laptop,Electronics,14,36.56,511.84,David Lee,South
+36,2024-11-05,Monitor,Accessories,4,490.18,1960.72,Michael Brown,West
+37,2024-05-23,Desk Lamp,Accessories,13,491.22,6385.86,Emma Davis,Central
+38,2024-11-30,Desk Lamp,Office Supplies,2,499.87,999.74,John Smith,South
+39,2024-10-21,Headphones,Peripherals,11,54.27,596.97,David Lee,North
+40,2024-02-27,Webcam,Accessories,3,167.87,503.61,John Smith,West
+41,2024-09-02,Keyboard,Electronics,18,293.2,5277.6,John Smith,North
+42,2024-03-21,Webcam,Accessories,10,362.75,3627.5,Sarah Wilson,West
+43,2024-07-21,Keyboard,Accessories,19,325.42,6182.98,Emma Davis,West
+44,2024-12-09,Monitor,Peripherals,20,470.85,9417.0,Sarah Wilson,South
+45,2024-01-12,Webcam,Accessories,10,406.07,4060.7,John Smith,North
+46,2024-04-13,Headphones,Office Supplies,15,157.62,2364.3,Sarah Wilson,South
+47,2024-05-03,Keyboard,Accessories,16,487.4,7798.4,Michael Brown,West
+48,2024-10-10,Monitor,Electronics,16,195.66,3130.56,Michael Brown,South
+49,2024-05-07,Headphones,Accessories,16,320.18,5122.88,David Lee,East
+50,2024-06-17,Desk Lamp,Peripherals,18,29.87,537.66,Sarah Wilson,Central

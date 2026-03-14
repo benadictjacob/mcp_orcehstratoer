@@ -1,0 +1,23 @@
+2025-01-06 10:15:23 INFO Application started successfully
+2025-01-06 10:15:24 INFO Loading configuration from config.json
+2025-01-06 10:15:25 DEBUG Connecting to database
+2025-01-06 10:15:26 INFO Database connection established
+2025-01-06 10:15:30 WARNING Configuration file missing optional parameter: timeout
+2025-01-06 10:15:35 ERROR Failed to load module: user_authentication
+2025-01-06 10:15:35 ERROR Exception: ModuleNotFoundError - No module named 'auth'
+2025-01-06 10:15:40 INFO Retrying module load...
+2025-01-06 10:15:45 INFO Module loaded successfully
+2025-01-06 10:16:00 DEBUG Processing user request: GET /api/users
+2025-01-06 10:16:01 INFO Request processed successfully (200 OK)
+2025-01-06 10:16:15 WARNING API rate limit approaching: 95/100 requests
+2025-01-06 10:16:20 ERROR Database query failed: Connection timeout
+2025-01-06 10:16:20 ERROR Exception: TimeoutError - Query execution exceeded 30 seconds
+2025-01-06 10:16:25 INFO Retrying database query...
+2025-01-06 10:16:30 INFO Query completed successfully
+2025-01-06 10:17:00 DEBUG Memory usage: 512MB / 2GB
+2025-01-06 10:17:30 WARNING High memory usage detected: 1.8GB / 2GB
+2025-01-06 10:18:00 ERROR Out of memory error
+2025-01-06 10:18:00 ERROR Exception: MemoryError - Cannot allocate memory
+2025-01-06 10:18:05 INFO Application restarting...
+2025-01-06 10:18:10 INFO Application started successfully
+2025-01-06 10:18:15 INFO All systems operational

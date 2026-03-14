@@ -1,0 +1,120 @@
+======================================================================
+  MCP DEMO SERVER -- VALIDATION REPORT
+  Generated: 2026-02-26 22:04:44
+======================================================================
+
+CHANGE DETECTION vs last snapshot
+----------------------------------------
+  NEW capabilities (46)
+    + add_numbers
+    + excel_login
+    + excel_read
+    + excel_edit
+    + excel_list_sessions
+    + dynamic_executor
+    + create_excel_sample
+    + log_analyzer
+    + analyze_logs
+    + files_list
+    + files_read
+    + files_delete
+    + files_rename
+    + files_copy
+    + files_move
+    + files_search
+    + files_large
+    + c_drive
+    + c_drive_cleanup
+    + downloads_analyzer
+    + package_install
+    + canva
+    + quotes
+    + weather
+    + crypto
+    + countries
+    + anime
+    + webtools_base64_encode
+    + webtools_base64_decode
+    + webtools_reverse
+    + webtools_stats
+    + webtools_sort
+    + webtools_find_replace
+    + webtools_password
+    + webtools_shuffle
+    + webtools_case
+    + webtools_dedup
+    + webtools_url_encode
+    + webtools_json_beautify
+    + webtools_json_minify
+    + webtools_list
+    + llm
+    + job_scraper
+    + dashboard
+    + validate
+    + uipath
+
+REGISTRY VALIDATION
+----------------------------------------
+  All 45 registry entries are well-formed. OK
+
+MODULE IMPORT CHECKS
+----------------------------------------
+  FAIL | countries | No module named 'countries_api'
+
+SANDBOX EXECUTION RESULTS
+----------------------------------------
+  PASS: 38  FAIL: 3  WARN: 0  SKIP: 4
+
+  [PASS      ] add_numbers                         PASS -- 120 chars in 0ms
+  [PASS      ] excel_login                         PASS -- 97 chars in 0ms
+  [PASS      ] excel_read                          PASS -- 136 chars in 0ms
+  [PASS      ] excel_edit                          PASS -- 165 chars in 0ms
+  [PASS      ] excel_list_sessions                 PASS -- 45 chars in 0ms
+  [PASS      ] dynamic_executor                    PASS -- 41 chars in 0ms
+  [PASS      ] create_excel_sample                 PASS -- 293 chars in 4ms
+  [PASS      ] log_analyzer                        PASS -- 484 chars in 0ms
+  [PASS      ] analyze_logs                        PASS -- 111 chars in 0ms
+  [PASS      ] files_list                          PASS -- 65788 chars in 175ms
+  [PASS      ] files_read                          PASS -- 114 chars in 0ms
+  [SKIPPED   ] files_delete                        SKIPPED (destructive op)
+  [SKIPPED   ] files_rename                        SKIPPED (destructive op)
+  [SKIPPED   ] files_copy                          SKIPPED (destructive op)
+  [SKIPPED   ] files_move                          SKIPPED (destructive op)
+  [PASS      ] files_search                        PASS -- 31 chars in 2ms
+  [PASS      ] files_large                         PASS -- 36 chars in 104ms
+  [PASS      ] c_drive                             PASS -- 394 chars in 0ms
+  [PASS      ] c_drive_cleanup                     PASS -- 385 chars in 0ms
+  [PASS      ] downloads_analyzer                  PASS -- 294 chars in 0ms
+  [PASS      ] package_install                     PASS -- 24 chars in 120037ms
+  [PASS      ] canva                               PASS -- 46 chars in 0ms
+  [PASS      ] quotes                              PASS -- 259 chars in 1616ms
+  [PASS      ] weather                             PASS -- 95 chars in 23120ms
+  [PASS      ] crypto                              PASS -- 183 chars in 1387ms
+  [FAIL      ] countries                           FAIL -- No module named 'countries_api'
+  [PASS      ] anime                               PASS -- 269 chars in 1767ms
+  [PASS      ] webtools_base64_encode              PASS -- 99 chars in 1ms
+  [PASS      ] webtools_base64_decode              PASS -- 98 chars in 0ms
+  [PASS      ] webtools_reverse                    PASS -- 67 chars in 0ms
+  [PASS      ] webtools_stats                      PASS -- 136 chars in 0ms
+  [PASS      ] webtools_sort                       PASS -- 121 chars in 0ms
+  [FAIL      ] webtools_find_replace               FAIL -- Traceback (most recent call last):   File "C:\Users\VICTUS\mcp-server-demo\tools\validation_suite.py", line 163, in sand
+  [PASS      ] webtools_password                   PASS -- 85 chars in 1ms
+  [PASS      ] webtools_shuffle                    PASS -- 112 chars in 0ms
+  [FAIL      ] webtools_case                       FAIL -- Traceback (most recent call last):   File "C:\Users\VICTUS\mcp-server-demo\tools\validation_suite.py", line 163, in sand
+  [PASS      ] webtools_dedup                      PASS -- 150 chars in 0ms
+  [PASS      ] webtools_url_encode                 PASS -- 80 chars in 0ms
+  [PASS      ] webtools_json_beautify              PASS -- 105 chars in 0ms
+  [PASS      ] webtools_json_minify                PASS -- 190 chars in 0ms
+  [PASS      ] webtools_list                       PASS -- 953 chars in 0ms
+  [PASS      ] llm                                 PASS -- 32 chars in 2269ms
+  [PASS      ] job_scraper                         PASS -- 755 chars in 0ms
+  [PASS      ] dashboard                           PASS -- 32 chars in 0ms
+  [PASS      ] validate                            PASS -- 6176 chars in 39256941ms
+
+RECOMMENDATIONS
+----------------------------------------
+  * New capabilities added -- add sandbox test inputs for: add_numbers, excel_login, excel_read, excel_edit, excel_list_sessions, dynamic_executor, create_excel_sample, log_analyzer, analyze_logs, files_list, files_read, files_delete, files_rename, files_copy, files_move, files_search, files_large, c_drive, c_drive_cleanup, downloads_analyzer, package_install, canva, quotes, weather, crypto, countries, anime, webtools_base64_encode, webtools_base64_decode, webtools_reverse, webtools_stats, webtools_sort, webtools_find_replace, webtools_password, webtools_shuffle, webtools_case, webtools_dedup, webtools_url_encode, webtools_json_beautify, webtools_json_minify, webtools_list, llm, job_scraper, dashboard, validate, uipath
+  * Fix failing modules: countries, webtools_find_replace, webtools_case
+  * Fix import errors: countries
+
+======================================================================

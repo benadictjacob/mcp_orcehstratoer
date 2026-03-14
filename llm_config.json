@@ -1,0 +1,26 @@
+{
+  "default_provider": "ollama",
+  "providers": {
+    "ollama": {
+      "model": "llama3.2",
+      "base_url": "http://localhost:11434",
+      "timeout": 300
+    },
+    "openai": {
+      "model": "gpt-3.5-turbo",
+      "base_url": "https://api.openai.com/v1",
+      "api_key_env": "OPENAI_API_KEY",
+      "timeout": 60
+    },
+    "huggingface": {
+      "model": "mistralai/Mistral-7B-Instruct-v0.2",
+      "base_url": "https://api-inference.huggingface.co/models",
+      "api_key_env": "HF_API_KEY",
+      "timeout": 120
+    },
+    "mock": {
+      "model": null,
+      "fixed_response": null
+    }
+  }
+}

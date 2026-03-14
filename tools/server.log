@@ -1,0 +1,20 @@
+2025-01-06 09:00:00 INFO Server started on port 8080
+2025-01-06 09:00:05 INFO Listening for incoming connections
+2025-01-06 09:05:12 INFO New connection from 192.168.1.100
+2025-01-06 09:05:13 DEBUG Processing HTTP GET request
+2025-01-06 09:05:14 INFO Response sent: 200 OK
+2025-01-06 09:10:23 WARNING SSL certificate expires in 30 days
+2025-01-06 09:15:45 ERROR Connection refused: 192.168.1.200
+2025-01-06 09:15:45 ERROR Exception: ConnectionRefusedError - Target actively refused connection
+2025-01-06 09:20:10 INFO Connection from 192.168.1.150
+2025-01-06 09:20:11 ERROR Invalid authentication token
+2025-01-06 09:20:11 WARNING Failed login attempt from 192.168.1.150
+2025-01-06 09:25:30 DEBUG Cleaning up idle connections
+2025-01-06 09:25:35 INFO 5 idle connections closed
+2025-01-06 09:30:00 INFO Server health check: OK
+2025-01-06 09:35:45 ERROR Disk space low: 5% remaining
+2025-01-06 09:35:46 WARNING Automatic cleanup initiated
+2025-01-06 09:40:12 INFO Cleanup completed, 15% disk space available
+2025-01-06 09:45:20 DEBUG Processing batch job: data_sync
+2025-01-06 09:50:30 INFO Batch job completed successfully
+2025-01-06 10:00:00 INFO Server health check: OK
